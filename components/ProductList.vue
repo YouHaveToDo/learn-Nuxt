@@ -1,7 +1,5 @@
 <template>
-  <div>
-    {{ products }}
-  </div>
+  <div>{{ products }}</div>
 </template>
 
 <script>
