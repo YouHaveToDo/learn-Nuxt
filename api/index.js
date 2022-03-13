@@ -8,4 +8,11 @@ function fetchProductById(id) {
   return instance.get(`/products/${id}`)
 }
 
-export { fetchProductById }
+function fetchProductByKeyWord(keyWord) {
+  return instance.get(`/products`, {
+    params: {
+      name_like: keyWord,
+    },
+  })
+}
+export { fetchProductById, fetchProductByKeyWord }
