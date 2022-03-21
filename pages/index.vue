@@ -84,6 +84,9 @@ export default {
   //   console.log(response)
   //   this.products = response.data
   // },
+
+  // 접속한 방법에 따라 this를 다르게 동작할 수 있는 방법
+  // fetch() {} 
 }
 </script>
 
